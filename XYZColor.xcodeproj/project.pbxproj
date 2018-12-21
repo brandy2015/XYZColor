@@ -25,7 +25,7 @@
 		D6718AD3217715D6005653F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6718AD5217715D8005653F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6718AD8217715D8005653F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D6718ADA217715D8005653F0 /* XYZColor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XYZColor-Info.plist"; sourceTree = "<group>"; };
+		D6718ADA217715D8005653F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6718AE0217715E8005653F0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D6718AE1217715E8005653F0 /* XYZColor.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XYZColor.podspec; sourceTree = "<group>"; };
 		D6718AE2217715E8005653F0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -43,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D63458C421CC6D3000A2C007 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D6718AE62177164C005653F0 /* XYZColor.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		D6718AC2217715D6005653F0 = {
 			isa = PBXGroup;
 			children = (
@@ -65,13 +73,13 @@
 		D6718ACD217715D6005653F0 /* XYZColor */ = {
 			isa = PBXGroup;
 			children = (
-				D6718AE62177164C005653F0 /* XYZColor.swift */,
+				D63458C421CC6D3000A2C007 /* Source */,
 				D6718ACE217715D6005653F0 /* xxxy.swift */,
 				D6718AD0217715D6005653F0 /* xxy.swift */,
 				D6718AD2217715D6005653F0 /* Main.storyboard */,
 				D6718AD5217715D8005653F0 /* Assets.xcassets */,
 				D6718AD7217715D8005653F0 /* LaunchScreen.storyboard */,
-				D6718ADA217715D8005653F0 /* XYZColor-Info.plist */,
+				D6718ADA217715D8005653F0 /* Info.plist */,
 			);
 			path = XYZColor;
 			sourceTree = "<group>";
@@ -300,7 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E5VG453CHM;
-				INFOPLIST_FILE = "$(SRCROOT)/XYZColor/XYZColor-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/XYZColor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -319,7 +327,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E5VG453CHM;
-				INFOPLIST_FILE = "$(SRCROOT)/XYZColor/XYZColor-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/XYZColor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
