@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "XYZColor"
-  s.version      = "0.2.3"
+  s.version      = "0.2.5"
   s.summary      = "持续升级"
   s.description  = <<-DESC
                         颜色管理
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.authors            = { "Brandy" => "zhangqianbrandy2012@gmail.com" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/brandy2015/XYZColor.git", :tag => "0.2.3"}
+  s.source       = { :git => "https://github.com/brandy2015/XYZColor.git", :tag => "0.2.5"}
   s.source_files = "XYZColor/Source/*"
 
 
