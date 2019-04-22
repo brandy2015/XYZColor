@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "XYZColor"
-  s.version      = "0.2.5"
+  s.version      = "1.0.0"
   s.summary      = "持续升级"
   s.description  = <<-DESC
                         颜色管理
@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
 
-  s.swift_version = '4.2'
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
+  s.swift_version = '5.0'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 # s.dependency 'FileKit'
 
   s.ios.deployment_target = '9.0'
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.authors            = { "Brandy" => "zhangqianbrandy2012@gmail.com" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/brandy2015/XYZColor.git", :tag => "0.2.5"}
+  s.source       = { :git => "https://github.com/brandy2015/XYZColor.git", :tag => "1.0.0"}
   s.source_files = "XYZColor/Source/*"
 
 
