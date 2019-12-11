@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D6116E8E230BC34200962BCD /* XYZHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6116E8D230BC34200962BCD /* XYZHex.swift */; };
+		D656C41E2340669B008F2004 /* XYZColorImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D656C41D2340669B008F2004 /* XYZColorImage.swift */; };
 		D6718ACF217715D6005653F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6718ACE217715D6005653F0 /* AppDelegate.swift */; };
 		D6718AD1217715D6005653F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6718AD0217715D6005653F0 /* ViewController.swift */; };
 		D6718AD4217715D6005653F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6718AD2217715D6005653F0 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		D6116E8D230BC34200962BCD /* XYZHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZHex.swift; sourceTree = "<group>"; };
+		D656C41D2340669B008F2004 /* XYZColorImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZColorImage.swift; sourceTree = "<group>"; };
 		D6718ACB217715D6005653F0 /* XYZColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6718ACE217715D6005653F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6718AD0217715D6005653F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			children = (
 				D6718AE62177164C005653F0 /* XYZColor.swift */,
 				D6116E8D230BC34200962BCD /* XYZHex.swift */,
+				D656C41D2340669B008F2004 /* XYZColorImage.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D656C41E2340669B008F2004 /* XYZColorImage.swift in Sources */,
 				D6718AE72177164C005653F0 /* XYZColor.swift in Sources */,
 				D6116E8E230BC34200962BCD /* XYZHex.swift in Sources */,
 				D6718AD1217715D6005653F0 /* ViewController.swift in Sources */,
