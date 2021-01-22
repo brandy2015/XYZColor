@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D6116E8E230BC34200962BCD /* XYZHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6116E8D230BC34200962BCD /* XYZHex.swift */; };
+		D613332F240BB3F1003BBBE3 /* UIColor_Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D613332E240BB3F1003BBBE3 /* UIColor_Hex.swift */; };
 		D656C41E2340669B008F2004 /* XYZColorImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D656C41D2340669B008F2004 /* XYZColorImage.swift */; };
 		D6718ACF217715D6005653F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6718ACE217715D6005653F0 /* AppDelegate.swift */; };
 		D6718AD1217715D6005653F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6718AD0217715D6005653F0 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		D6116E8D230BC34200962BCD /* XYZHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZHex.swift; sourceTree = "<group>"; };
+		D613332E240BB3F1003BBBE3 /* UIColor_Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Hex.swift; sourceTree = "<group>"; };
 		D656C41D2340669B008F2004 /* XYZColorImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZColorImage.swift; sourceTree = "<group>"; };
 		D6718ACB217715D6005653F0 /* XYZColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6718ACE217715D6005653F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 				D6718AE62177164C005653F0 /* XYZColor.swift */,
 				D6116E8D230BC34200962BCD /* XYZHex.swift */,
 				D656C41D2340669B008F2004 /* XYZColorImage.swift */,
+				D613332E240BB3F1003BBBE3 /* UIColor_Hex.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -117,7 +120,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "张子豪";
 				TargetAttributes = {
 					D6718ACA217715D6005653F0 = {
@@ -167,6 +170,7 @@
 				D656C41E2340669B008F2004 /* XYZColorImage.swift in Sources */,
 				D6718AE72177164C005653F0 /* XYZColor.swift in Sources */,
 				D6116E8E230BC34200962BCD /* XYZHex.swift in Sources */,
+				D613332F240BB3F1003BBBE3 /* UIColor_Hex.swift in Sources */,
 				D6718AD1217715D6005653F0 /* ViewController.swift in Sources */,
 				D6718ACF217715D6005653F0 /* AppDelegate.swift in Sources */,
 			);
@@ -220,6 +224,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -281,6 +286,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -317,7 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E5VG453CHM;
 				INFOPLIST_FILE = "$(SRCROOT)/XYZColor/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,7 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E5VG453CHM;
 				INFOPLIST_FILE = "$(SRCROOT)/XYZColor/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
