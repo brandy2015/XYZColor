@@ -23,3 +23,12 @@ public extension UIColor {
         )
     }
 }
+
+
+public extension String{
+    
+    var toHexColor:UIColor{
+        return UIColor(hexString: self)
+    }
+    
+}
