@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D6116E8E230BC34200962BCD /* XYZHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6116E8D230BC34200962BCD /* XYZHex.swift */; };
-		D613332F240BB3F1003BBBE3 /* UIColor_Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D613332E240BB3F1003BBBE3 /* UIColor_Hex.swift */; };
-		D656C41E2340669B008F2004 /* XYZColorImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D656C41D2340669B008F2004 /* XYZColorImage.swift */; };
-		D670D09725E919E00030253E /* XYZBlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D670D09625E919E00030253E /* XYZBlack.swift */; };
 		D6718ACF217715D6005653F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6718ACE217715D6005653F0 /* AppDelegate.swift */; };
 		D6718AD1217715D6005653F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6718AD0217715D6005653F0 /* ViewController.swift */; };
 		D6718AD4217715D6005653F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6718AD2217715D6005653F0 /* Main.storyboard */; };
@@ -19,14 +16,11 @@
 		D6718AE3217715E8005653F0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D6718AE0217715E8005653F0 /* LICENSE */; };
 		D6718AE4217715E8005653F0 /* XYZColor.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D6718AE1217715E8005653F0 /* XYZColor.podspec */; };
 		D6718AE5217715E8005653F0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D6718AE2217715E8005653F0 /* README.md */; };
-		D6718AE72177164C005653F0 /* XYZColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6718AE62177164C005653F0 /* XYZColor.swift */; };
+		D6718AE72177164C005653F0 /* XYZColorKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6718AE62177164C005653F0 /* XYZColorKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6116E8D230BC34200962BCD /* XYZHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZHex.swift; sourceTree = "<group>"; };
-		D613332E240BB3F1003BBBE3 /* UIColor_Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Hex.swift; sourceTree = "<group>"; };
-		D656C41D2340669B008F2004 /* XYZColorImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZColorImage.swift; sourceTree = "<group>"; };
-		D670D09625E919E00030253E /* XYZBlack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZBlack.swift; sourceTree = "<group>"; };
 		D6718ACB217715D6005653F0 /* XYZColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6718ACE217715D6005653F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6718AD0217715D6005653F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,7 +31,7 @@
 		D6718AE0217715E8005653F0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D6718AE1217715E8005653F0 /* XYZColor.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XYZColor.podspec; sourceTree = "<group>"; };
 		D6718AE2217715E8005653F0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D6718AE62177164C005653F0 /* XYZColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZColor.swift; sourceTree = "<group>"; };
+		D6718AE62177164C005653F0 /* XYZColorKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZColorKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +48,8 @@
 		D63458C421CC6D3000A2C007 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D6718AE62177164C005653F0 /* XYZColor.swift */,
+				D6718AE62177164C005653F0 /* XYZColorKit.swift */,
 				D6116E8D230BC34200962BCD /* XYZHex.swift */,
-				D656C41D2340669B008F2004 /* XYZColorImage.swift */,
-				D613332E240BB3F1003BBBE3 /* UIColor_Hex.swift */,
-				D670D09625E919E00030253E /* XYZBlack.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -170,11 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D670D09725E919E00030253E /* XYZBlack.swift in Sources */,
-				D656C41E2340669B008F2004 /* XYZColorImage.swift in Sources */,
-				D6718AE72177164C005653F0 /* XYZColor.swift in Sources */,
+				D6718AE72177164C005653F0 /* XYZColorKit.swift in Sources */,
 				D6116E8E230BC34200962BCD /* XYZHex.swift in Sources */,
-				D613332F240BB3F1003BBBE3 /* UIColor_Hex.swift in Sources */,
 				D6718AD1217715D6005653F0 /* ViewController.swift in Sources */,
 				D6718ACF217715D6005653F0 /* AppDelegate.swift in Sources */,
 			);
@@ -325,7 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E5VG453CHM;
+				DEVELOPMENT_TEAM = 9GZYHL8TWB;
 				INFOPLIST_FILE = "$(SRCROOT)/XYZColor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -344,7 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E5VG453CHM;
+				DEVELOPMENT_TEAM = 9GZYHL8TWB;
 				INFOPLIST_FILE = "$(SRCROOT)/XYZColor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (

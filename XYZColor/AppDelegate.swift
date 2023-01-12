@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  XYZColor
-//
-//  Created by 张子豪 on 2018/10/17.
-//  Copyright © 2018 张子豪. All rights reserved.
-//
+ 
 
 import UIKit
 

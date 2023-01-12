@@ -1,15 +1,8 @@
-//
-//  XYZColor.swift
-//  XYZColor
-//
-//  Created by 张子豪 on 2018/8/25.
-//  Copyright © 2018年 zhangqian. All rights reserved.
-//
-
+ 
 import UIKit
 
 
-public class XYZColor: NSObject {
+public class XYZColorKit: NSObject {
     public var  XColor = UIColor()
     public func ColorX(_ red:CGFloat,_ green:CGFloat,_ blue:CGFloat,_ alpha:CGFloat = 1.0) -> UIColor {
         return UIColor(red:red/255.0, green: green/255.0, blue: blue/255.0, alpha: alpha)
