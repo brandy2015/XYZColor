@@ -34,6 +34,7 @@
 		D68CC97F29A7211800CBA08E /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68CC97C29A7211700CBA08E /* CGFloatExtensions.swift */; };
 		D68CC98029A7211800CBA08E /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68CC97D29A7211800CBA08E /* UIImageExtensions.swift */; };
 		D68CC98129A7211800CBA08E /* CGSizeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68CC97E29A7211800CBA08E /* CGSizeExtensions.swift */; };
+		D6E1D8552ACBE5A000A0442A /* UIKit_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E1D8542ACBE5A000A0442A /* UIKit_Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		D68CC97C29A7211700CBA08E /* CGFloatExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtensions.swift; sourceTree = "<group>"; };
 		D68CC97D29A7211800CBA08E /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 		D68CC97E29A7211800CBA08E /* CGSizeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSizeExtensions.swift; sourceTree = "<group>"; };
+		D6E1D8542ACBE5A000A0442A /* UIKit_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit_Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				D68CC96629A7210E00CBA08E /* XYZ.swift */,
 				D6718AE62177164C005653F0 /* XYZColorKit.swift */,
 				D6116E8D230BC34200962BCD /* XYZHex.swift */,
+				D6E1D8542ACBE5A000A0442A /* UIKit_Color.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				D68CC97F29A7211800CBA08E /* CGFloatExtensions.swift in Sources */,
 				D68CC97829A7210F00CBA08E /* DominantColors.swift in Sources */,
 				D68CC98129A7211800CBA08E /* CGSizeExtensions.swift in Sources */,
+				D6E1D8552ACBE5A000A0442A /* UIKit_Color.swift in Sources */,
 				D68CC97229A7210F00CBA08E /* RGB.swift in Sources */,
 				D68CC97629A7210F00CBA08E /* ColorPalette.swift in Sources */,
 				D68CC97929A7210F00CBA08E /* ContrastRatio.swift in Sources */,
